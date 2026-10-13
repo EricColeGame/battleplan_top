@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/eQ7yFyt8f8", // Official: Battleplan Discord
     youtube: "https://www.youtube.com/@SlitherineGames", // Official publisher channel
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "de", "fr"],
   defaultLocale: "en",
 };

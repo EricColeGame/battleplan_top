@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "Battleplan Wiki",
+    "shortName": "Battleplan",
+    "tagline": "Maîtrisez la tactique, les unités et la stratégie de champ de bataille",
+    "description": "Explorez Battleplan Wiki pour des guides stratégiques complets, des informations sur les unités, des conseils tactiques, les mises à jour du gameplay et tout ce dont les joueurs ont besoin pour maîtriser les batailles.",
+    "legalNotice": "Wiki de fans non officiel. Réalisé par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "guide": "Guide",
+    "mechanics": "Mécaniques",
+    "modes": "Modes",
+    "history": "Histoire",
+    "release": "Sortie",
+    "reviews": "Tests",
+    "community": "Communauté",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème"
+  },
+  "home": {
+    "meta": {
+      "title": "Battleplan Wiki - Unités, guides et tactiques",
+      "description": "Explorez Battleplan Wiki pour des guides stratégiques complets, des informations sur les unités, des conseils tactiques, les mises à jour du gameplay et tout ce dont les joueurs ont besoin pour maîtriser les batailles."
+    },
+    "hero": {
+      "eyebrow": "Jeu de planification stratégique de batailles",
+      "title": "Battleplan Wiki",
+      "description": "Battleplan est un jeu axé sur la stratégie où les joueurs créent des plans tactiques, gèrent des unités et s'affrontent par des décisions intelligentes sur le champ de bataille.",
+      "stats": [
+        "Unités disponibles",
+        "Codes actifs",
+        "Mises à jour quotidiennes",
+        "Guides stratégiques"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Guide des unités",
+      "tertiaryCta": "Codes actifs",
+      "videoLabel": "Médias officiels"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre parcours dans Battleplan",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Découvrez la boucle centrale de Battleplan : lisez la carte, bâtissez un ordre de bataille réaliste et donnez vos premiers ordres dessinés."
+        },
+        {
+          "number": "2",
+          "title": "Dessiner des plans de bataille",
+          "description": "Maîtrisez la mécanique signature de Battleplan en esquissant des attaques en plusieurs phases directement sur la carte pour que vos officiers les exécutent."
+        },
+        {
+          "number": "3",
+          "title": "Bases du combat",
+          "description": "Comprenez la préparation d'artillerie, les attaques de flanc et la défense en profondeur pour que vos premières batailles se terminent par une percée nette."
+        },
+        {
+          "number": "4",
+          "title": "Guide de campagne",
+          "description": "Voyez comment sont structurées les campagnes de 39-45 d'une semaine et comment planifier des phases qui résistent à l'usure et à la pression logistique."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances",
+      "quickLinks": [
+        "Guide du débutant",
+        "Dessiner les ordres",
+        "Système de combat",
+        "Commandement de l'armée"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Tout ce qu'il faut pour passer de votre première division à un commandement sûr en 39-45.",
+          "href": "/guide/battleplan-beginner-guide"
+        },
+        {
+          "badge": "Mécaniques",
+          "title": "Dessiner les ordres",
+          "description": "Comment le système de plans dessinés sur la carte de Battleplan transforme les esquisses en offensives réelles.",
+          "href": "/mechanics/battleplan-drawing-orders"
+        },
+        {
+          "badge": "Mécaniques",
+          "title": "Système de combat",
+          "description": "Puissance de feu, moral et armes combinées expliqués pour chaque engagement.",
+          "href": "/mechanics/battleplan-combat-system"
+        },
+        {
+          "badge": "Modes",
+          "title": "Guide de campagne",
+          "description": "Planifiez des offensives de plusieurs semaines et gardez votre ordre de bataille au combat.",
+          "href": "/modes/battleplan-campaign"
+        },
+        {
+          "badge": "Armée",
+          "title": "Commandement de l'armée",
+          "description": "Créez des divisions, définissez la chaîne de commandement et optimisez les compositions.",
+          "href": "/mechanics/battleplan-army-command"
+        },
+        {
+          "badge": "Histoire",
+          "title": "Normandy",
+          "description": "Bocage, plages et terrain réel sur le champ de bataille le plus célèbre de Battleplan.",
+          "href": "/history/battleplan-normandy"
+        },
+        {
+          "badge": "Communauté",
+          "title": "Mises à jour",
+          "description": "Correctifs de lancement, actualités de la feuille de route et retours de la communauté au même endroit.",
+          "href": "/community/battleplan-updates"
+        },
+        {
+          "badge": "Sortie",
+          "title": "Sortie Steam",
+          "description": "Prix, fonctionnalités et premières impressions du lancement de Battleplan.",
+          "href": "/release/battleplan-steam-release"
+        },
+        {
+          "badge": "Test",
+          "title": "Test de Battleplan",
+          "description": "Comment se joue ce titre de stratégie en temps réel de la Seconde Guerre mondiale et ce que disent les premiers tests.",
+          "href": "/reviews/battleplan-review"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Battleplan ?",
+      "paragraphs": [
+        "Battleplan est un jeu de stratégie en temps réel historique sur la Seconde Guerre mondiale du développeur Foolish Mortals Games Inc. et de l'éditeur Slitherine Ltd. Au lieu de microgérer chaque soldat, vous commandez des divisions entières : vous personnalisez un ordre de bataille, dessinez des plans en plusieurs phases directement sur la carte et laissez vos officiers les exécuter.",
+        "Les batailles de Battleplan sont simulées seconde par seconde et peuvent durer d'une semaine à un mois entier de temps de jeu sur des champs de bataille construits à partir de données géographiques réelles. Gérez les lignes de ravitaillement, la vétérance des officiers et le terrain pendant que des centaines de milliers de soldats exécutent votre plan ou exposent vos erreurs."
+      ],
+      "stats": [
+        {
+          "label": "Développeur",
+          "value": "Foolish Mortals Games"
+        },
+        {
+          "label": "Éditeur",
+          "value": "Slitherine Ltd."
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC (Windows)"
+        },
+        {
+          "label": "Genre",
+          "value": "Stratégie en temps réel 39-45"
+        },
+        {
+          "label": "Sortie",
+          "value": "12 oct. 2026"
+        },
+        {
+          "label": "Prix de base",
+          "value": "$29.99"
+        },
+        {
+          "label": "Modes de jeu",
+          "value": "Solo"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez Battleplan Wiki",
+      "description": "Maîtrisez Battleplan grâce à des guides approfondis sur l'ordre de bataille, les plans dessinés, la logistique, les unités, les campagnes et le terrain réel de chaque bataille de la Seconde Guerre mondiale.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant de Battleplan",
+          "description": "Un parcours convivial pour débutants dans les systèmes centraux de Battleplan : lire la carte, bâtir un ordre de bataille, dessiner vos premiers ordres et gérer le temps et le ravitaillement dans les grandes batailles de 39-45.",
+          "href": "/guide/battleplan-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Étudiez la carte et le terrain réel avant d'engager la moindre unité"
+            },
+            {
+              "label": "2",
+              "detail": "Bâtissez un ordre de bataille réaliste pour votre division"
+            },
+            {
+              "label": "3",
+              "detail": "Dessinez votre premier plan directement sur la carte"
+            },
+            {
+              "label": "4",
+              "detail": "Réglez les contrôles du temps pour mettre en pause, jouer ou avancer rapidement"
+            },
+            {
+              "label": "5",
+              "detail": "Gardez des lignes de ravitaillement courtes pour que l'avancée ne s'arrête jamais"
+            },
+            {
+              "label": "6",
+              "detail": "Analysez la bataille, puis ajustez votre prochain plan"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guide de stratégie de Battleplan",
+          "description": "Un guide axé sur la stratégie du commandement dans Battleplan : planification sur le champ de bataille, tactiques offensives et défensives, gestion logistique et armes combinées qui augmentent votre taux de victoire.",
+          "href": "/guide/battleplan-strategy-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Terrain",
+              "detail": "Lisez le relief et les haies pour choisir où la ligne ennemie cède"
+            },
+            {
+              "label": "Logistique",
+              "detail": "Gardez des lignes de ravitaillement courtes, sinon une longue offensive s'enlise"
+            },
+            {
+              "label": "Vétérance",
+              "detail": "Les officiers expérimentés exécutent les plans dessinés plus vite et plus précisément"
+            },
+            {
+              "label": "Défense",
+              "detail": "Superposez les lignes défensives et planifiez les replis, pas seulement les attaques"
+            },
+            {
+              "label": "Combiné",
+              "detail": "Associez artillerie, blindés et infanterie pour des percées préparées"
+            },
+            {
+              "label": "Rythme",
+              "detail": "Utilisez les contrôles du temps pour mettre en pause, réfléchir et vous engager au bon moment"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guide des unités de Battleplan",
+          "description": "Une référence des unités de Battleplan couvrant infanterie, chars, artillerie, génie, reconnaissance et rôles de soutien, chaque rôle étant classé selon son impact au combat.",
+          "href": "/mechanics/battleplan-grand-scale-battles",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Artillerie — les barrages massifs affaiblissent les défenses avant que l'infanterie s'élance"
+            },
+            {
+              "label": "A",
+              "detail": "Blindés — les chars mènent les phases de percée et d'exploitation"
+            },
+            {
+              "label": "B",
+              "detail": "Infanterie — tient le terrain et nettoie villes et haies"
+            },
+            {
+              "label": "C",
+              "detail": "Reconnaissance — couvre les flancs et révèle tôt les positions ennemies"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guide de campagne de Battleplan",
+          "description": "Comment fonctionnent les campagnes de Battleplan : structure des missions, conception de l'ordre de bataille, développement des officiers et gestion de l'armée sur des offensives de plusieurs semaines.",
+          "href": "/modes/battleplan-campaign",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Missions",
+              "detail": "Chaque mission de campagne simule d'une semaine à un mois de temps de jeu"
+            },
+            {
+              "label": "Ordre",
+              "detail": "Concevez un ordre de bataille qui survit à des semaines d'usure"
+            },
+            {
+              "label": "Ravitaillement",
+              "detail": "Protégez les dépôts de ravitaillement, sinon votre offensive s'effondre en silence"
+            },
+            {
+              "label": "Officiers",
+              "detail": "Développez des officiers vétérans qui exécutent les plans complexes de façon fiable"
+            },
+            {
+              "label": "Phases",
+              "detail": "Découpez les offensives en bombardement, percée et exploitation"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Créateur d'armée de Battleplan",
+          "description": "Un module axé sur la construction pour Battleplan : créez des divisions, organisez votre chaîne de commandement et optimisez les compositions d'armée pour différents champs de bataille.",
+          "href": "/mechanics/battleplan-army-command",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Divisions",
+              "detail": "Personnalisez l'ordre de bataille de chaque division avant le déploiement"
+            },
+            {
+              "label": "Chaîne",
+              "detail": "Organisez une chaîne de commandement claire du corps à la compagnie"
+            },
+            {
+              "label": "Soutien",
+              "detail": "Rattachez artillerie, génie et unités antichars là où ils comptent"
+            },
+            {
+              "label": "Blindés",
+              "detail": "Équilibrez chars et infanterie selon le terrain attendu"
+            },
+            {
+              "label": "Reconnaissance",
+              "detail": "Ajoutez des éléments de reconnaissance pour éviter les avancées aveugles dans les embuscades"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guide des cartes de Battleplan",
+          "description": "Une référence des cartes des grands champs de bataille de 39-45 de Battleplan, couvrant le terrain réel, les caractéristiques géographiques et la façon dont le sol façonne chaque plan dessiné.",
+          "href": "/history/battleplan-normandy",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Normandy",
+              "detail": "Les haies du bocage et les plages ouvertes exigent des poussées d'armes combinées",
+              "badge": "Côtier"
+            },
+            {
+              "label": "Market Garden",
+              "detail": "Les routes étroites et les franchissements de rivières récompensent les parachutages",
+              "badge": "Aéroporté"
+            },
+            {
+              "label": "Front de l'Ouest",
+              "detail": "Les longues lignes de front mettent à l'épreuve la profondeur logistique et la planification défensive",
+              "badge": "Usure"
+            },
+            {
+              "label": "Haies",
+              "detail": "Les données d'altitude réelles transforment le terrain en couvert et en positions de tir",
+              "badge": "Terrain"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Actualités de Battleplan",
+          "description": "Une section régulièrement mise à jour rassemblant les annonces officielles de Battleplan, les journaux de développement, les informations de sortie et les changements d'équilibrage.",
+          "href": "/community/battleplan-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lancement",
+              "detail": "Battleplan est sorti sur Steam le 12 octobre 2026 au prix de 29,99 $"
+            },
+            {
+              "label": "Correctifs",
+              "detail": "Suivez les correctifs du jour de lancement et les changements d'équilibrage sur le fil d'actualité Steam"
+            },
+            {
+              "label": "Feuille de route",
+              "detail": "Suivez les fonctionnalités confirmées et les plans de contenu après lancement"
+            },
+            {
+              "label": "Communauté",
+              "detail": "Lisez les premiers retours des joueurs et les changements qu'ils entraînent"
+            },
+            {
+              "label": "Tests",
+              "detail": "Voyez comment les tests mitigés du lancement ont évolué au fil du temps"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Configuration requise de Battleplan",
+          "description": "La référence technique de Battleplan : configurations PC minimales et recommandées, plateformes prises en charge et tout ce qu'il faut pour faire tourner de grandes batailles en douceur.",
+          "href": "/release/battleplan-steam-release",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "RAM min.",
+              "detail": "4 Go de RAM avec une GeForce GT 1030 ou Radeon RX 460",
+              "badge": "Minimum"
+            },
+            {
+              "label": "RAM rec.",
+              "detail": "8 Go de RAM avec un GPU de classe GTX 1040 ou Radeon RX 580",
+              "badge": "Recommandé"
+            },
+            {
+              "label": "OS",
+              "detail": "Windows 10 ou 11 64 bits avec DirectX 11",
+              "badge": "Les deux"
+            },
+            {
+              "label": "Stockage",
+              "detail": "8 Go d'espace disponible et une connexion haut débit",
+              "badge": "Les deux"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Des réponses rapides aux questions les plus courantes sur Battleplan.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Battleplan ?",
+          "answer": "Battleplan est un jeu de stratégie en temps réel historique sur la Seconde Guerre mondiale du développeur Foolish Mortals Games Inc. et de l'éditeur Slitherine Ltd., sorti le 12 octobre 2026. Vous commandez des divisions entières, dessinez des plans de bataille directement sur la carte et regardez vos officiers les exécuter dans des batailles simulées seconde par seconde."
+        },
+        {
+          "question": "Battleplan est-il difficile pour les débutants ?",
+          "answer": "Battleplan récompense la planification plutôt que les clics rapides. Commencez par le Guide du débutant de Battleplan pour apprendre l'ordre de bataille, les outils de dessin sur la carte, la gestion du ravitaillement et les contrôles du temps avant d'affronter des campagnes d'un mois."
+        },
+        {
+          "question": "Combien de temps dure une bataille dans Battleplan ?",
+          "answer": "Les missions de Battleplan sont simulées seconde par seconde et peuvent durer d'environ une semaine à un mois entier de temps de jeu, vous pouvez donc mettre en pause, jouer en temps réel ou avancer rapidement quand vous le souhaitez."
+        },
+        {
+          "question": "Quelle est la configuration requise de Battleplan ?",
+          "answer": "Battleplan tourne sur Windows 10 ou 11 64 bits avec DirectX 11. La configuration minimale demande 4 Go de RAM et un GPU de classe GeForce GT 1030, tandis que le niveau recommandé demande 8 Go de RAM et une carte de classe GTX 1040, avec 8 Go de stockage et une connexion haut débit."
+        },
+        {
+          "question": "Combien coûte Battleplan ?",
+          "answer": "Battleplan est sorti sur Steam le 12 octobre 2026 au prix de base de 29,99 $, et c'est un jeu solo."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Battleplan ?",
+      "description": "De vos premières batailles de campagne à la guerre opérationnelle à grande échelle, notre wiki communautaire vous couvre avec des guides gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Voir tous les codes",
+    "playOnRoblox": "Jouer sur Roblox",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures associées",
+    "relatedGuides": "Guides associés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !",
+    "featuredGuides": "Guides à la une",
+    "viewAllGuides": "Voir tous les guides"
+  },
+  "footer": {
+    "aboutTitle": "Battleplan Wiki",
+    "about": "Battleplan Wiki est un hub de guides indépendant créé par des fans, couvrant les campagnes, les unités, la construction d'armée, les tactiques de champ de bataille et l'essentiel à savoir sur le jeu, pour les nouveaux comme pour les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Battleplan Wiki. Non affilié à Foolish Mortals Games ni à Slitherine.",
+    "description": "Jeu de stratégie en temps réel historique sur la Seconde Guerre mondiale sur PC. Commandez des divisions entières, dessinez des plans de bataille élaborés et livrez des batailles massives.",
+    "playGame": "Jouer à Battleplan sur Steam",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Créateur d'armée de Battleplan",
+    "beginnerGuide": "Guide du débutant",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "mechanicsGuides": "Mécaniques de combat",
+    "modesGuides": "Modes de jeu",
+    "historyGuides": "Histoire 39-45"
+  },
+  "guide": {
+    "overviewTitle": "Guides Battleplan",
+    "overviewDescription": "Des guides pas à pas de Battleplan couvrant comment jouer, la campagne pour débutants, les missions de démo et les tactiques qui gagnent vos premières batailles."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques de combat de Battleplan",
+    "overviewDescription": "Découvrez comment fonctionne le système de plans de bataille de Battleplan : ordres dessinés, attaques de flanc, commandement de l'armée et combats à grande échelle."
+  },
+  "modes": {
+    "overviewTitle": "Modes de jeu de Battleplan",
+    "overviewDescription": "Toutes les façons de combattre dans Battleplan, de la campagne solo et des opérations spéciales aux missions de siège et au multijoueur."
+  },
+  "history": {
+    "overviewTitle": "Histoire 39-45 de Battleplan",
+    "overviewDescription": "Les batailles historiques derrière Battleplan, notamment le front de l'Ouest, la Normandie et l'opération Market Garden."
+  },
+  "release": {
+    "overviewTitle": "Sortie et prix de Battleplan",
+    "overviewDescription": "Dates de sortie de Battleplan, détails du lancement Steam, prix et comment télécharger la démo."
+  },
+  "reviews": {
+    "overviewTitle": "Tests et médias de Battleplan",
+    "overviewDescription": "Tests de Battleplan, analyses de gameplay et bandes-annonces de toute la communauté."
+  },
+  "community": {
+    "overviewTitle": "Communauté Battleplan",
+    "overviewDescription": "Le Discord de Battleplan, les actualités, la feuille de route et la couverture des mises à jour pour la communauté de stratégie en temps réel 39-45."
+  }
+}

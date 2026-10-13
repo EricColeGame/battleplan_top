@@ -8,6 +8,13 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "history": "History",
+    "release": "Release",
+    "reviews": "Reviews",
+    "community": "Community",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -441,7 +448,6 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -457,7 +463,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "featuredGuides": "Featured Guides",
+    "viewAllGuides": "View all guides"
   },
   "footer": {
     "aboutTitle": "Battleplan Wiki",
@@ -472,10 +480,38 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Battleplan Army Builder",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Battle Mechanics",
+    "modesGuides": "Game Modes",
+    "historyGuides": "WW2 History"
+  },
+  "guide": {
+    "overviewTitle": "Battleplan Guides",
+    "overviewDescription": "Step-by-step Battleplan guides covering how to play, the beginner campaign, demo missions, and the tactics that win your first battles."
+  },
+  "mechanics": {
+    "overviewTitle": "Battleplan Battle Mechanics",
+    "overviewDescription": "Learn how Battleplan's battle plan system works: drawing orders, flanking attacks, army command, and grand-scale combat."
+  },
+  "modes": {
+    "overviewTitle": "Battleplan Game Modes",
+    "overviewDescription": "Every way to fight in Battleplan, from the single-player campaign and special operations to siege missions and multiplayer."
+  },
+  "history": {
+    "overviewTitle": "Battleplan WW2 History",
+    "overviewDescription": "The historical battles behind Battleplan, including the Western Front, Normandy, and Operation Market Garden."
+  },
+  "release": {
+    "overviewTitle": "Battleplan Release & Price",
+    "overviewDescription": "Battleplan release dates, Steam launch details, price, and how to download the demo."
+  },
+  "reviews": {
+    "overviewTitle": "Battleplan Reviews & Media",
+    "overviewDescription": "Battleplan reviews, gameplay breakdowns, and trailers from across the community."
+  },
+  "community": {
+    "overviewTitle": "Battleplan Community",
+    "overviewDescription": "Battleplan Discord, news, roadmap, and update coverage for the WW2 real-time strategy community."
   }
 }

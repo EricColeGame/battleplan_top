@@ -1,0 +1,110 @@
+export const metadata = {
+  title: "Battleplan Drawing Orders: How to Plan Multi-Stage Attacks on the Map",
+  description: "Battleplan drawing orders explained: how the map-drawing plan system works, plus tips for multi-stage attacks, supply lines, and chain of command.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+Battleplan is a WW2 real-time strategy game where the map itself is the command interface: you sketch a plan instead of micromanaging every squad. That makes **Battleplan drawing orders** the single most important skill in the game, because your officers will execute exactly what you drew — including the parts you drew badly. Getting comfortable with **Battleplan drawing orders** early pays off immediately: cleaner plans mean fewer units wandering into open ground, fewer stalled attacks, and far less time spent fixing a battle that already went sideways.
+
+This guide breaks down what drawn plans actually control, how to build a multi-stage offensive step by step, when to pause and when to let the clock run, and which mistakes show up again and again in community reports.
+
+## What Battleplan Drawing Orders Actually Do
+
+In most real-time strategy games, you select a unit and click a destination. Battleplan flips that: you draw intent onto a map built from real-world geographic data, and your headquarters, regiments, battalions, and companies interpret that intent autonomously. Roads, towns, forests, and swamps sit where they do in real life, so terrain is not decoration — it shapes whether a drawn line is a strong position or a trap.
+
+The tactics the game highlights — defense in depth, counterattacks, planned withdrawals, preparatory bombardments, and splitting a division across multiple objectives — are all expressed through drawing rather than clicking. Think of each drawn element as a sentence in a set of instructions your officers will read without you.
+
+| Drawn element | What it tells your force | Best used when |
+|---|---|---|
+| Axis of advance | Where to push and roughly how fast | You have local superiority and open terrain |
+| Layered defensive line | Where to hold, and where to fall back to | You expect a heavier attack than you can stop outright |
+| Bombardment preparation | Where to soften the enemy before an assault | Before a set-piece attack on a fortified position |
+| Withdrawal route | How to disengage without collapsing | Your supply is thin or your flank is exposed |
+| Multi-objective split | Which elements take which objective | You outnumber the defender and can afford to divide |
+
+*Note: the labels above describe intent, not literal button names — the plan tools let you express these ideas, and player experience shows the intent matters more than the exact shape you draw.*
+
+## Building a Multi-Stage Offensive, Step by Step
+
+A single drawn arrow rarely wins anything. The strength of Battleplan drawing orders comes from sequencing: bombardment, breach, exploitation, consolidation. Each stage should be drawn before you unpause, because reissuing orders mid-assault while units are already committed is how attacks stall.
+
+Here is a workable sequence for a division-level assault.
+
+| Step | What you draw | Why it matters |
+|---|---|---|
+| 1. Reconnaissance | Scout routes and observation points | You cannot plan around terrain you have not looked at |
+| 2. Preparation | Artillery targets on the main defensive belt | Reduces the defenders before infantry arrives |
+| 3. Main effort | One clear axis of advance for the strongest regiment | Concentrated force beats three half-hearted pushes |
+| 4. Supporting effort | A secondary axis or fixing attack | Pins defenders so they cannot shift reserves |
+| 5. Exploitation | Follow-up arrows past the first objective | Momentum is cheap; rebuilding it is expensive |
+| 6. Consolidation | Defensive lines on the captured ground | Prevents a counterattack from undoing the whole plan |
+
+Two practical habits separate smooth offensives from chaotic ones. First, leave a gap between stages rather than drawing one continuous arrow through the entire map — your officers need a beat to reorganize. Second, always draw the consolidation line before you launch, because the moment the objective falls, your attention will be elsewhere.
+
+### Keep objectives physically achievable
+
+Missions are simulated second by second and can run from about a week to a month of in-game time. A plan that assumes a company can cover thirty kilometers of real terrain in an afternoon is not ambitious, it is fiction. Match the length of your drawn arrows to what infantry can actually walk, and let armor and engineers handle the longer hooks.
+
+## Timing, Tempo, and the Chain of Command
+
+Battleplan gives you three speeds of time: paused, real-time, and fast-forward. Each has a job, and using them well is as important as the shapes you draw.
+
+| Time control | Best use | Risk if overused |
+|---|---|---|
+| Paused | Drawing and revising plans, reading the front | You over-plan and lose the feel for tempo |
+| Real-time | Watching an assault develop and adjusting | Reaction time is short; mistakes compound |
+| Fast-forward | Quiet periods, logistics build-up, long marches | You miss a collapsing flank or a supply break |
+
+Because orders flow down through a realistic chain of command, the level at which you intervene matters. A division commander who personally redirects every company will drown in detail; one who only sets the plan and trusts subordinates will occasionally watch a good officer make a bad call. The healthy middle is to draw at the level you command and let the layers below solve local problems.
+
+| Level | Typical responsibility | What you should be ordering |
+|---|---|---|
+| Division / corps | Frontage, main effort, reserves | Axes of advance, defensive belts, commitment of reserves |
+| Regiment | Sector within the division plan | Objective sequencing, supporting fires |
+| Battalion | Local attack or defense | Timing of the assault, use of attached tanks and engineers |
+| Company | Ground-level execution | Rarely worth micromanaging directly |
+
+Officer quality feeds directly into this. Keeping officers alive lets them gain veterancy — and quirks — and their advice is often worth reading, even when you overrule it.
+
+## Logistics and Supply: Where Drawn Plans Succeed or Fail
+
+The most elegant drawn plan in the game dies without fuel, ammunition, and food. Supply in Battleplan is simulated with terrain dictating how it flows, which means your beautiful encirclement can become your own units' starvation if the roads behind you are cut.
+
+| Supply situation | Symptom you will see | Fix |
+|---|---|---|
+| Long, thin advance | Lead units slow and stop | Shorten the advance, capture a depot, or pause to consolidate |
+| Cut supply line | Units degrade behind the front | Reopen the route or withdraw to a defensible line |
+| Terrain bottleneck | Supply trickles through one road | Protect that road; do not plan a second axis through it |
+| Enemy depot nearby | Enemy resists longer than expected | Prioritize the depot as an objective, not an afterthought |
+
+A useful rule from player experience: draw your offensive in supply-sized bites. If you cannot describe how the next supply depot gets captured or connected, the plan is probably one stage too long. Pulling back when units run low is not a defeat — it is a drawn withdrawal that keeps your division intact for the next push.
+
+## Common Mistakes With Battleplan Drawing Orders — and How to Fix Them
+
+Community reports and early Steam reviews (the game launched to a "Mixed" reception, with roughly two-thirds of reviews positive at the time of writing) point to a handful of recurring problems. Most of them are planning problems, not simulation problems.
+
+| Mistake | What it looks like | Better approach |
+|---|---|---|
+| One giant arrow | A single line from start to final objective | Break it into stages with consolidation points |
+| No reserve | Every unit committed on turn one | Keep a regiment or battalion uncommitted for counterattacks |
+| Ignoring terrain | Arrows crossing swamps and ridgelines | Route through roads and towns; place artillery on high ground |
+| Chasing every objective | Division split five ways | Concentrate on one decisive objective first |
+| Never pausing | Orders issued at real-time speed | Pause to draw, unpause to observe |
+| Ignoring officer advice | Overruling every suggestion | Read the advice; it often flags supply or terrain issues |
+
+If you are new to the game, resist the urge to redraw constantly. A plan that is 80 percent right and executed cleanly usually beats a perfect plan issued in six contradictory pieces. For patch notes, system requirements, and official announcements, the [Battleplan page on Steam](https://store.steampowered.com/app/3743140/Battleplan/) is the most reliable reference, and it is also where the developers post release news.
+
+## FAQ
+
+**Can I change Battleplan drawing orders after the battle starts?**
+Yes. The mission runs in real time with pause and fast-forward, so you can halt the clock, redraw a stage, and resume. The catch is that units already engaged may take time to disengage and follow the new plan, so late changes are best treated as adjustments rather than complete rewrites.
+
+**Do drawn plans work if I never pause?**
+They can, but the game is clearly designed around pause-and-plan play. Drawing while the simulation runs means you are reacting to a situation instead of shaping it, and drawn plans made under time pressure tend to be single-stage arrows with no reserve.
+
+**How long does a single mission take?**
+Mission lengths range from roughly one week to a month of simulated time, with everything computed second by second. That scale is why logistics and staged plans matter so much — a division cannot sprint for a month.
+
+**Is Battleplan drawing orders hard to learn for newcomers?**
+The drawing itself is intuitive, which is the point of the system. The difficulty is in planning discipline: sequencing stages, holding a reserve, and keeping supply intact. New players who start with small, clearly staged plans adapt faster than those who try to draw a whole campaign at once.

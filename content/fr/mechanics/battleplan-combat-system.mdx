@@ -1,0 +1,107 @@
+export const metadata = {
+  title: "Système de combat de Battleplan expliqué : comment fonctionne réellement la guerre en temps réel de la Seconde Guerre mondiale",
+  description: "Une plongée approfondie dans le système de combat de Battleplan : ordres dessinés, officiers autonomes, lignes de ravitaillement et terrain réel dans ce jeu de stratégie en temps réel de la Seconde Guerre mondiale.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## Pourquoi le système de combat de Battleplan ne ressemble à aucun autre RTS de la Seconde Guerre mondiale
+
+La plupart des jeux de stratégie en temps réel vous confient un char et une cible. Le système de combat de Battleplan vous confie une division, une carte construite à partir de données géographiques réelles, et un crayon. Au lieu de microgérer chaque tir, vous esquissez une offensive en plusieurs étapes sur un champ de bataille qui s'étend sur des milliers de kilomètres, puis vous regardez vos officiers l'exécuter d'eux-mêmes. Cette seule décision de conception remodèle tout : votre rapport au temps, votre rapport au ravitaillement, et le degré de confiance que vous accordez aux hommes sous votre commandement.
+
+Pourquoi est-ce important ? Parce que Battleplan, développé par Foolish Mortals Games et édité par Slitherine, sorti le 12 octobre 2026, est explicitement conçu comme un wargame centré sur la simulation plutôt qu'un RTS d'action. Les missions s'étendent d'environ une semaine à un mois complet de temps simulé, et le jeu suit des centaines de milliers de soldats seconde par seconde. Comprendre le système de combat de Battleplan n'est pas un détail facultatif — c'est la différence entre donner des ordres qui fonctionnent et donner des ordres qui s'effondrent discrètement trois jours après le début d'une offensive.
+
+Ce guide décompose le système en ses différentes couches : planification, commandement, exécution et logistique. Il aborde également les habitudes pratiques qui distinguent les joueurs qui remportent des batailles planifiées de ceux dont l'avancée s'enlise dès la première rupture d'approvisionnement.
+
+## La couche de planification : dessiner les ordres directement sur la carte
+
+La fonctionnalité emblématique est aussi la plus déroutante pour les nouveaux venus. Vous ne cliquez pas sur une unité puis sur une destination. Vous dessinez. Les lignes de front, les axes de progression, les ceintures défensives, les itinéraires de repli et les zones de bombardement sont tous esquissés sur la carte à la souris, puis associés à des unités et des phases spécifiques.
+
+Cela signifie qu'un seul plan peut enchaîner plusieurs opérations distinctes. Un barrage préparatoire affaiblit un secteur. Un régiment d'infanterie s'engouffre dans la brèche. Les sapeurs suivent pour consolider. Un second élément se détache pour s'emparer d'un pont ou d'un carrefour. Le tout s'exprime comme une seule séquence dessinée plutôt qu'une dizaine de clics paniqués.
+
+Le tableau ci-dessous oppose ce modèle au schéma de contrôle conventionnel que la plupart des joueurs de RTS apportent avec eux.
+
+| Couche de contrôle | Jeu de stratégie en temps réel typique | Système de combat de Battleplan |
+|---|---|---|
+| Saisie des ordres | Cliquer sur l'unité, cliquer sur la cible | Dessiner des trajets, des zones et des phases sur la carte |
+| Portée des ordres | Une unité ou un petit groupe | Séquences à l'échelle de la division et multi-unités |
+| Durée | Secondes à minutes | Jours à semaines de temps simulé |
+| Rôle du joueur | Marionnettiste direct | Officier planificateur émettant une intention |
+| Mode d'échec | Perdre un combat | Perdre un calendrier ou une ligne de ravitaillement |
+
+À retenir en pratique : pensez en phases, pas en instants. Un bon plan dessiné comporte un effort principal clair, un objectif secondaire et une condition de sortie. Si votre plan n'a pas de réponse à la question « que se passe-t-il si cela échoue ? », le jeu trouvera cette faille pour vous.
+
+## Chaîne de commandement et exécution autonome
+
+Une fois le plan dessiné, vous cessez d'être un marionnettiste pour devenir un commandant. Les états-majors, régiments, bataillons et compagnies sont modélisés individuellement, et les unités qui les composent agissent de leur propre initiative. Infanterie, chars, sapeurs, canons antichars, artillerie et éclaireurs poursuivent chacun les tâches qui leur sont assignées sans attendre un clic.
+
+C'est ici que le système de combat de Battleplan récompense la préparation plutôt que les réflexes. Vos officiers exécutent l'intention que vous leur avez donnée — mais ils l'interprètent. Un officier doté de bons instincts s'adaptera lorsque le terrain se gâte. Un officier aux instincts médiocres, ou qui a contracté une fâcheuse manie, peut pousser trop loin ou se retrancher trop tôt.
+
+La gestion des officiers est donc une véritable mécanique, pas un simple texte d'ambiance. Vous pouvez recruter et limoger des commandants, les promouvoir dans des structures de corps, et les garder en vie assez longtemps pour qu'ils acquièrent de l'expérience. Les vétérans sont plus performants ; ils accumulent aussi des manies. Écouter leurs conseils peut s'avérer payant, et les ignorer est une stratégie légitime — assurez-vous simplement de savoir quel type d'officier vous ignorez.
+
+| Type d'unité | Rôle sur le champ de bataille | Points de vigilance |
+|---|---|---|
+| Infanterie | Tenir le terrain, nettoyer villes et bois | Attrition si poussée sans soutien |
+| Chars | Percée et exploitation | Dépendance au carburant et au ravitaillement |
+| Sapeurs | Pionnage, fortifications, assaut urbain | Lents à repositionner |
+| Canons antichars | Interdire les avancées blindées | Vulnérables s'ils sont pris à découvert |
+| Artillerie | Bombardement préparatoire, interdiction | Consommation de munitions et risque de contre-batterie |
+| Éclaireurs | Reconnaissance et couverture | Pertes s'ils sont laissés sans soutien |
+
+Vous pouvez également remodeler votre ordre de bataille entre les missions. Les divisions peuvent être fusionnées en corps ou scindées jusqu'au niveau des compagnies, et les unités peuvent être réquisitionnées ou améliorées au fil de la campagne. Les retours de la communauté suggèrent que les joueurs qui reconstruisent leur structure de forces entre les missions — plutôt que de reconduire la même formation — gèrent bien mieux les scénarios longs.
+
+## Ravitaillement, terrain et temps : les couches sous les combats
+
+Si la planification est la moitié visible du système de combat de Battleplan, la logistique est la moitié qui décide la plupart des batailles. Le ravitaillement est simulé de manière réaliste, et le terrain dicte la façon dont il circule. Les routes et le rail comptent. Les marais et les forêts étouffent les mouvements. Coupez la ligne de ravitaillement d'un ennemi et son avancée s'arrête tout simplement — non pas à cause d'une pénalité scriptée, mais parce que la simulation dit que les camions ne peuvent pas passer.
+
+La même logique s'applique à vos propres forces. Capturer des dépôts de ravitaillement alimente votre poussée. Dépasser vos dépôts l'affame. Replier des unités à court de ressources n'est pas une défaite ; c'est souvent le bon choix, car une division qui se retire intacte peut se battre à nouveau trois jours plus tard, tandis qu'une division encerclée ne le peut pas.
+
+Le terrain est modélisé à partir de données géographiques réelles, ce qui signifie que chaque route, ville, forêt et marais se trouve là où il se trouve réellement. L'élévation compte aussi — l'artillerie placée sur une véritable hauteur gagne de réels avantages, et vous pouvez examiner les cartes d'élévation avant d'engager vos canons. Le résultat est un champ de bataille qui récompense les joueurs qui lisent le terrain plutôt que ceux qui mémorisent des enchaînements d'ouverture.
+
+| Point de pression | Pourquoi il décide des batailles | Contre-mesure pratique |
+|---|---|---|
+| Flux de ravitaillement | Les unités cessent de fonctionner sans lui | Capturer les dépôts, protéger votre corridor |
+| Goulots d'étranglement du terrain | Canaliser ou bloquer le mouvement | Reconnaître avant d'engager les blindés |
+| Élévation | Améliore l'artillerie et l'observation | Éclairer les hauteurs tôt |
+| Échelle temporelle | Les plans se déroulent sur des jours | Fixer des objectifs par phases, pas une seule grande poussée |
+| Météo et distance | Étirent tous les calendriers | Prévoir de la marge dans votre plan |
+
+La manipulation du temps est la pièce finale. Vous pouvez mettre en pause, jouer en temps réel ou avancer rapidement à volonté, ce qui signifie que le rythme du jeu vous appartient vraiment. Utilisez la pause pour planifier, le temps réel pour les engagements critiques, et l'avance rapide pour les périodes calmes où seule la logistique bouge.
+
+## Conseils pratiques pour gagner plus de batailles
+
+Les habitudes suivantes découlent de la conception même du jeu et de l'expérience des joueurs partagée depuis le lancement. Les avis des utilisateurs Steam pour Battleplan sont actuellement mitigés — environ deux tiers de positifs sur un petit échantillon — les éloges les plus fréquents portant sur la profondeur de la planification et de la simulation, et la critique la plus fréquente sur la courbe d'apprentissage. Les deux réactions pointent vers la même vérité : ce jeu punit l'improvisation et récompense la doctrine.
+
+| Erreur courante | Ce qu'elle vous coûte | Meilleure approche |
+|---|---|---|
+| Une seule grande poussée à fond | Effondrement quand l'unité de tête cale | Superposer effort principal et objectif secondaire |
+| Ignorer les lignes de ravitaillement | L'avancée s'arrête en pleine opération | Sécuriser les dépôts avant d'en avoir besoin |
+| Microgérer chaque unité | Attention gaspillée, aucun bénéfice | Faire confiance à l'autonomie, intervenir seulement aux moments clés |
+| Accumuler les bons officiers | Pas d'expérience, pas de manies | Faire tourner les officiers pour qu'ils survivent et progressent |
+| Sauter la reconnaissance | Embuscades et itinéraires bloqués | Éclairer d'abord avec des unités bon marché |
+| Ne jamais se replier | Formations entières détruites | Les replis planifiés préservent la puissance de combat |
+
+Deux habitudes supplémentaires méritent d'être acquises tôt. Premièrement, utilisez les bombardements préparatoires avant les attaques planifiées plutôt que pendant celles-ci — l'artillerie est bien plus précieuse pour affaiblir une position que pour réagir à une crise. Deuxièmement, traitez votre chaîne de commandement comme une structure vivante. Scindez les divisions lorsqu'une mission exige une large couverture, fusionnez-les quand vous avez besoin d'une puissance concentrée, et améliorez les unités au cours de la campagne plutôt que de supposer que votre ordre de bataille initial vous mènera jusqu'au bout.
+
+Si vous souhaitez consulter la liste complète des fonctionnalités et la configuration requise, la [page Steam officielle de Battleplan](https://store.steampowered.com/app/3743140/Battleplan/) expose directement les piliers de la simulation. Le jeu inclut également des photos et vidéos historiques géolocalisées, ce qui en fait un moyen étonnamment efficace d'apprendre la géographie réelle des campagnes que vous menez.
+
+## FAQ
+
+**Le système de combat de Battleplan est-il difficile à apprendre ?**
+Il présente une courbe d'apprentissage abrupte au départ, car il vous demande de penser en phases et en logistique plutôt qu'en micro-gestion d'unités. L'interface d'ordres dessinés est intuitive une fois que vous acceptez que vos unités agissent de manière autonome et que votre rôle est de donner une bonne intention, et non une saisie constante.
+
+**Puis-je mettre en pause pendant une bataille ?**
+Oui. Les missions sont simulées seconde par seconde, et vous pouvez mettre en pause, jouer en temps réel ou avancer rapidement quand vous le souhaitez. Mettre en pause pour redessiner un plan en pleine opération est une partie normale et attendue du jeu.
+
+**Dois-je gérer le ravitaillement manuellement ?**
+Pas clic par clic, mais vous devez le gérer stratégiquement. Le ravitaillement est simulé de manière réaliste, le terrain façonnant son flux ; couper les lignes ennemies, capturer des dépôts et savoir quand se replier sont donc des compétences essentielles au sein du système de combat de Battleplan.
+
+**Que se passe-t-il si l'un de mes officiers meurt ?**
+Vous perdez son expérience et ses manies, et quelqu'un d'autre prend le commandement de la formation. Comme l'expérience de vétéran et les manies sont persistantes, garder les commandants en vie tout au long d'une longue campagne est l'un des investissements à long terme les plus précieux que vous puissiez faire.
+
+**Le jeu prend-il en charge le multijoueur ?**
+La fiche du magasin met l'accent sur une expérience solo avec les succès Steam, le Steam Cloud et le partage familial. Si le jeu compétitif ou coopératif vous importe, consultez la page du magasin pour les dernières mises à jour avant d'acheter.
+
+## L'essentiel
+
+Le système de combat de Battleplan consiste moins à gagner des fusillades qu'à gagner des calendriers. Dessinez des plans clairs, déléguez à des officiers de confiance, maintenez le flux de ravitaillement et respectez le terrain sur lequel vous combattez. Faites ces quatre choses et la simulation commencera à travailler avec vous plutôt que contre vous.

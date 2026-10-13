@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core Battleplan loop: read the map, build a realistic order of battle, and issue your first drawn orders."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Drawing Battle Plans",
+          "description": "Master the signature mechanic of Battleplan by sketching multi-stage attacks directly onto the map for your officers to execute."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Combat Basics",
+          "description": "Understand artillery preparation, flanking attacks, and defense in depth so your first battles end in a clean breakthrough."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Battleplan."
+          "title": "Campaign Guide",
+          "description": "See how week-long WW2 campaigns are structured and how to plan phases that survive real attrition and supply pressure."
         }
       ]
     },
@@ -66,237 +66,343 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Drawing Orders",
+        "Combat System",
+        "Army Command"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need to go from your first division to confident WW2 command.",
+          "href": "/guide/battleplan-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Mechanics",
+          "title": "Drawing Orders",
+          "description": "How Battleplan's map-drawing plan system turns sketches into real offensives.",
+          "href": "/mechanics/battleplan-drawing-orders"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "Combat System",
+          "description": "Firepower, morale, and combined arms explained for every engagement.",
+          "href": "/mechanics/battleplan-combat-system"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Modes",
+          "title": "Campaign Guide",
+          "description": "Plan weeks-long offensives and keep your order of battle fighting.",
+          "href": "/modes/battleplan-campaign"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Army",
+          "title": "Army Command",
+          "description": "Build divisions, set the chain of command, and optimize compositions.",
+          "href": "/mechanics/battleplan-army-command"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "History",
+          "title": "Normandy",
+          "description": "Bocage, beaches, and real terrain in Battleplan's most famous battlefield.",
+          "href": "/history/battleplan-normandy"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Community",
+          "title": "Updates",
+          "description": "Launch patches, roadmap news, and community feedback in one place.",
+          "href": "/community/battleplan-updates"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Release",
+          "title": "Steam Release",
+          "description": "Price, features, and first impressions from the Battleplan launch.",
+          "href": "/release/battleplan-steam-release"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Review",
+          "title": "Battleplan Review",
+          "description": "How the WW2 real-time strategy title plays and what early reviews say.",
+          "href": "/reviews/battleplan-review"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Battleplan?",
       "paragraphs": [
-        "Battleplan is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Battleplan is a historical World War II real-time strategy game from developer Foolish Mortals Games Inc. and publisher Slitherine Ltd. Instead of micromanaging individual soldiers, you command entire divisions: you customize an order of battle, draw multi-stage plans directly onto the map, and let your officers carry them out.",
+        "Battles in Battleplan are simulated second by second and can run from a week to a full month of in-game time across battlefields built from real-world geographic data. Manage supply lines, officer veterancy, and terrain while hundreds of thousands of troops execute your plan or expose your mistakes."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Foolish Mortals Games"
+        },
+        {
+          "label": "Publisher",
+          "value": "Slitherine Ltd."
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Windows)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "WW2 Real-Time Strategy"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Released",
+          "value": "Oct 12, 2026"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Base Price",
+          "value": "$29.99"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Player Modes",
+          "value": "Single-player"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Battleplan Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master Battleplan with in-depth guides covering the order of battle, drawn plans, logistics, units, campaigns, and the real-world terrain behind every WW2 battle.",
       "modules": [
         {
           "order": 1,
-          "name": "Battleplan Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/battleplan-codes",
-          "displayType": "code-box",
+          "name": "Battleplan Beginner Guide",
+          "description": "A beginner-friendly walkthrough of Battleplan's core systems: reading the map, building an order of battle, drawing your first orders, and managing time and supply in large-scale WW2 battles.",
+          "href": "/guide/battleplan-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Study the map and real terrain before you commit a single unit"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Build a realistic order of battle for your division"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Draw your first plan directly onto the map"
+            },
+            {
+              "label": "4",
+              "detail": "Set time controls to pause, play, or fast-forward"
+            },
+            {
+              "label": "5",
+              "detail": "Keep supply lines short so the advance never stalls"
+            },
+            {
+              "label": "6",
+              "detail": "Review the battle, then adjust your next plan"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/battleplan-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Battleplan Strategy Guide",
+          "description": "A strategy-focused guide to Battleplan command: battlefield planning, offensive and defensive tactics, logistics management, and combined-arms play that raises your win rate.",
+          "href": "/guide/battleplan-strategy-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Terrain",
+              "detail": "Read elevation and hedgerows to choose where the enemy line breaks"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Logistics",
+              "detail": "Keep supply lines short or a long offensive will grind to a halt"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Veterancy",
+              "detail": "Experienced officers execute drawn plans faster and more accurately"
+            },
+            {
+              "label": "Defense",
+              "detail": "Layer defensive lines and plan withdrawals, not only attacks"
+            },
+            {
+              "label": "Combined",
+              "detail": "Pair artillery, armor, and infantry for set-piece breakthroughs"
+            },
+            {
+              "label": "Tempo",
+              "detail": "Use time controls to pause, think, and commit at the right moment"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/battleplan-tier-list",
+          "name": "Battleplan Units Guide",
+          "description": "A unit reference for Battleplan covering infantry, tanks, artillery, engineers, recon, and support roles, with each role ranked by its battlefield impact.",
+          "href": "/mechanics/battleplan-grand-scale-battles",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Artillery — massed barrages soften defenses before infantry step off"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Armor — tanks lead the breakthrough and exploitation phases"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Infantry — holds ground and clears towns and hedgerows"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Recon — screens flanks and reveals enemy positions early"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/battleplan-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Battleplan Campaign Guide",
+          "description": "How Battleplan campaigns work: mission structure, order-of-battle design, officer development, and long-term army management across weeks-long offensives.",
+          "href": "/modes/battleplan-campaign",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Missions",
+              "detail": "Each campaign mission simulates a week to a month of in-game time"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Order",
+              "detail": "Design an order of battle that survives weeks of attrition"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Supply",
+              "detail": "Protect supply depots or your offensive quietly collapses"
+            },
+            {
+              "label": "Officers",
+              "detail": "Develop veteran officers who execute complex plans reliably"
+            },
+            {
+              "label": "Phases",
+              "detail": "Break offensives into bombardment, breach, and exploitation"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/battleplan-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Battleplan Army Builder",
+          "description": "A build-focused module for Battleplan: create divisions, organize your chain of command, and optimize army compositions for different battlefields.",
+          "href": "/mechanics/battleplan-army-command",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Divisions",
+              "detail": "Customize each division's order of battle before deployment"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Chain",
+              "detail": "Organize a clear chain of command from corps to company"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Support",
+              "detail": "Attach artillery, engineers, and anti-tank units where they matter"
+            },
+            {
+              "label": "Armor",
+              "detail": "Balance tanks against infantry for the terrain you expect"
+            },
+            {
+              "label": "Recon",
+              "detail": "Add recon elements to avoid blind advances into ambushes"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/battleplan-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Battleplan Maps Guide",
+          "description": "A map reference for Battleplan's major WW2 battlefields, covering real-world terrain, geographic features, and how ground shapes every drawn plan.",
+          "href": "/history/battleplan-normandy",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Normandy",
+              "detail": "Bocage hedgerows and open beaches demand combined-arms pushes",
+              "badge": "Coastal"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Market Garden",
+              "detail": "Narrow roads and river crossings reward airborne drops",
+              "badge": "Airborne"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Western Front",
+              "detail": "Long front lines test supply depth and defensive planning",
+              "badge": "Attrition"
+            },
+            {
+              "label": "Hedgerows",
+              "detail": "Real elevation data turns terrain into cover and firing positions",
+              "badge": "Terrain"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Battleplan News Updates",
+          "description": "A regularly updated section collecting official Battleplan announcements, development diaries, release information, and balance changes.",
+          "href": "/community/battleplan-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Launch",
+              "detail": "Battleplan released on Steam on October 12, 2026 at $29.99"
+            },
+            {
+              "label": "Patches",
+              "detail": "Follow launch-day fixes and balance changes on the Steam news feed"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Track confirmed features and post-launch content plans"
+            },
+            {
+              "label": "Community",
+              "detail": "Read early player feedback and the changes it drives"
+            },
+            {
+              "label": "Reviews",
+              "detail": "See how the mixed launch reviews have shifted over time"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Battleplan System Requirements",
+          "description": "The technical reference for Battleplan: minimum and recommended PC specs, supported platforms, and everything you need to run large battles smoothly.",
+          "href": "/release/battleplan-steam-release",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Min RAM",
+              "detail": "4 GB RAM with a GeForce GT 1030 or Radeon RX 460",
+              "badge": "Minimum"
+            },
+            {
+              "label": "Rec RAM",
+              "detail": "8 GB RAM with a GTX 1040 or Radeon RX 580 class GPU",
+              "badge": "Recommended"
+            },
+            {
+              "label": "OS",
+              "detail": "64-bit Windows 10 or 11 with DirectX 11",
+              "badge": "Both"
+            },
+            {
+              "label": "Storage",
+              "detail": "8 GB available space plus a broadband connection",
+              "badge": "Both"
             }
           ]
         }
@@ -308,23 +414,23 @@
       "items": [
         {
           "question": "What is Battleplan?",
-          "answer": "Battleplan is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Battleplan is a historical WW2 real-time strategy game from developer Foolish Mortals Games Inc. and publisher Slitherine Ltd., released on October 12, 2026. You command entire divisions, draw battle plans directly onto the map, and watch your officers execute them in battles simulated second by second."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Battleplan hard for beginners?",
+          "answer": "Battleplan rewards planning over fast clicking. Start with the Battleplan Beginner Guide to learn the order of battle, the map-drawing tools, supply management, and time controls before you take on month-long campaigns."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How long does a Battleplan battle take?",
+          "answer": "Missions in Battleplan are simulated second by second and can run from roughly one week to a full month of in-game time, so you can pause, play in real time, or fast-forward whenever you like."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What are Battleplan's system requirements?",
+          "answer": "Battleplan runs on 64-bit Windows 10 or 11 with DirectX 11. Minimum specs call for 4 GB RAM and a GeForce GT 1030-class GPU, while the recommended tier asks for 8 GB RAM and a GTX 1040-class card, with 8 GB of storage and a broadband connection."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How much does Battleplan cost?",
+          "answer": "Battleplan launched on Steam on October 12, 2026 at a base price of $29.99, and it is a single-player game."
         }
       ]
     },
